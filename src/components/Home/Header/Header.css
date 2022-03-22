@@ -9,6 +9,9 @@
 .header-icon{
     width: 15rem;
 }
+.header{
+    height: 50px;
+}
 
 .header-container{
     flex-grow: 1;

@@ -5,7 +5,9 @@ import VideoGridHeader from "./VideoGridHeader/VideoGridHeader";
 import { Divider } from "semantic-ui-react";
 
 export const VideoGrid = () => {
-  let preview = Array.apply(null, new Array(15)).map(() => <VideoPreview />);
+  let preview = Array.apply(null, new Array(15)).map((val, index) => (
+    <VideoPreview key={index} />
+  ));
 
   return (
     <>
