@@ -1,0 +1,28 @@
+.header span i.icon{
+    color: red;
+}
+
+.header{
+    height: 50px;
+}
+
+.header-icon{
+    width: 15rem;
+}
+
+.header-container{
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.search-input{
+    width: 50%;
+}
+
+.search-input form {
+    width: 100%;
+}
+
+.menu-icon{
+    color: rgb(170, 170, 170);
+}
