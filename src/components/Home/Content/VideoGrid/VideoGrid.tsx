@@ -1,8 +1,17 @@
 import React from "react";
 import { VideoPreview } from "./VideoPreview/VideoPreview";
+import "./VideoGrid.css";
+import VideoGridHeader from "./VideoGridHeader/VideoGridHeader";
+import { Divider } from "semantic-ui-react";
 
 export const VideoGrid = () => {
-  let preview = Array.apply(null, new Array(5)).map(() => <VideoPreview />);
+  let preview = Array.apply(null, new Array(15)).map(() => <VideoPreview />);
 
-  return <div className="">{preview}</div>;
+  return (
+    <>
+      <VideoGridHeader Title="test title" />
+      <div className="video-grid">{preview}</div>
+      <Divider />
+    </>
+  );
 };
