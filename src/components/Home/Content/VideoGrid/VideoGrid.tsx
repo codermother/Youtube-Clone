@@ -9,7 +9,7 @@ export const VideoGrid = () => {
 
   return (
     <>
-      <VideoGridHeader Title="test title" />
+      <VideoGridHeader Title="Test Title" />
       <div className="video-grid">{preview}</div>
       <Divider />
     </>

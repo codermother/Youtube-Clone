@@ -1,0 +1,9 @@
+.video-content{
+    margin-left: 15rem;
+    display: grid;
+    justify-content: center;
+}
+
+.video-content-container{
+max-width: 1100px;
+}
