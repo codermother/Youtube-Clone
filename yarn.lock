@@ -1766,6 +1766,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/gapi@^0.0.41":
+  "integrity" "sha512-tmHO66z/f91JZCDqinj/nNvQEszsz/hBT4+MvCSKT5sDzl5Ld/oXZ8WaecCBjRLw2uWKUInUHM9MhEXWkOiNjw=="
+  "resolved" "https://registry.npmjs.org/@types/gapi/-/gapi-0.0.41.tgz"
+  "version" "0.0.41"
+
 "@types/graceful-fs@^4.1.2":
   "integrity" "sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw=="
   "resolved" "https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.5.tgz"
